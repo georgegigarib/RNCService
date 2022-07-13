@@ -2,7 +2,6 @@ const express = require('express');
 const app     = express();
 const fs      = require('fs');
 
-
 let RNC = [];
 app.get('/', function (req,res) {
     res.sendFile(__dirname + '/index.html');
